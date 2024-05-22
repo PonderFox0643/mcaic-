@@ -29,7 +29,7 @@ forge版本：43.1.7
 
  ......
  
-合成表:
+合成表（待更新）:
 
 ![2022-12-13 (7)](https://user-images.githubusercontent.com/73422207/207321963-45e00051-4bef-4203-a76d-22803cc9784d.png)
 ![2022-12-13 (8)](https://user-images.githubusercontent.com/73422207/207321970-e361c077-22de-4354-a432-e66eefc34a47.png)
@@ -39,7 +39,9 @@ forge版本：43.1.7
 物品总览：
 
 
-![2022-12-13 (11)](https://user-images.githubusercontent.com/73422207/207322847-11270481-996c-4663-92ff-261fa08dce3a.png)
+![8e3fe4ed2930858a24a7c66d24f2aa9c](https://github.com/PonderFox0643/mcaic/assets/73422207/c3b37f12-44e6-467e-936e-225eb414c7d7)
+
+
 
 *构建的话请使用
 >jdk17 
