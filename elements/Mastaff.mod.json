@@ -1,12 +1,10 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "staff",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
     "name": "法杖小棍",
     "rarity": "COMMON",
     "creativeTab": {

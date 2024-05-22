@@ -9,8 +9,8 @@
       "registry_name": "noel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/item/noel.json",
-          "src/main/java/top/pf43/mcaic/item/NoelItem.java"
+          "src/main/java/top/pf43/mcaic/item/NoelItem.java",
+          "src/main/resources/assets/mcaic/models/item/noel.json"
         ]
       }
     },
@@ -34,8 +34,8 @@
       "registry_name": "crystalstaff",
       "metadata": {
         "files": [
-          "src/main/java/top/pf43/mcaic/item/CrystalstaffItem.java",
-          "src/main/resources/assets/mcaic/models/item/crystalstaff.json"
+          "src/main/resources/assets/mcaic/models/item/crystalstaff.json",
+          "src/main/java/top/pf43/mcaic/item/CrystalstaffItem.java"
         ]
       }
     },
@@ -48,8 +48,8 @@
       "registry_name": "macrystal",
       "metadata": {
         "files": [
-          "src/main/java/top/pf43/mcaic/item/MacrystalItem.java",
-          "src/main/resources/assets/mcaic/models/item/macrystal.json"
+          "src/main/resources/assets/mcaic/models/item/macrystal.json",
+          "src/main/java/top/pf43/mcaic/item/MacrystalItem.java"
         ]
       }
     },
@@ -87,8 +87,8 @@
       "registry_name": "re_noel_battle",
       "metadata": {
         "files": [
-          "src/main/java/top/pf43/mcaic/item/ReNoelBattleItem.java",
-          "src/main/resources/assets/mcaic/models/item/re_noel_battle.json"
+          "src/main/resources/assets/mcaic/models/item/re_noel_battle.json",
+          "src/main/java/top/pf43/mcaic/item/ReNoelBattleItem.java"
         ]
       }
     },
@@ -114,8 +114,8 @@
       "registry_name": "re_noel_bsp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/item/re_noel_bsp.json",
-          "src/main/java/top/pf43/mcaic/item/ReNoelBSPItem.java"
+          "src/main/java/top/pf43/mcaic/item/ReNoelBSPItem.java",
+          "src/main/resources/assets/mcaic/models/item/re_noel_bsp.json"
         ]
       }
     },
@@ -141,10 +141,11 @@
       "registry_name": "mcaictbc",
       "metadata": {
         "files": [
+          "src/main/resources/assets/mcaic/blockstates/mcaictbc.json",
           "src/main/java/top/pf43/mcaic/block/MCAICTBCBlock.java",
+          "src/main/resources/data/mcaic/loot_tables/blocks/mcaictbc.json",
           "src/main/resources/assets/mcaic/models/item/mcaictbc.json",
-          "src/main/resources/assets/mcaic/models/block/mcaictbc.json",
-          "src/main/resources/assets/mcaic/blockstates/mcaictbc.json"
+          "src/main/resources/assets/mcaic/models/block/mcaictbc.json"
         ]
       }
     },
@@ -157,10 +158,11 @@
       "registry_name": "ma_xm",
       "metadata": {
         "files": [
+          "src/main/java/top/pf43/mcaic/block/MaXmBlock.java",
           "src/main/resources/assets/mcaic/models/block/ma_xm.json",
-          "src/main/resources/assets/mcaic/models/item/ma_xm.json",
           "src/main/resources/assets/mcaic/blockstates/ma_xm.json",
-          "src/main/java/top/pf43/mcaic/block/MaXmBlock.java"
+          "src/main/resources/assets/mcaic/models/item/ma_xm.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_xm.json"
         ]
       }
     },
@@ -173,10 +175,11 @@
       "registry_name": "ma_dm",
       "metadata": {
         "files": [
+          "src/main/resources/assets/mcaic/models/item/ma_dm.json",
+          "src/main/resources/assets/mcaic/models/block/ma_dm.json",
           "src/main/resources/assets/mcaic/blockstates/ma_dm.json",
           "src/main/java/top/pf43/mcaic/block/MaDmBlock.java",
-          "src/main/resources/assets/mcaic/models/item/ma_dm.json",
-          "src/main/resources/assets/mcaic/models/block/ma_dm.json"
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_dm.json"
         ]
       }
     },
@@ -189,9 +192,10 @@
       "registry_name": "ma_f",
       "metadata": {
         "files": [
-          "src/main/java/top/pf43/mcaic/block/MaFBlock.java",
           "src/main/resources/assets/mcaic/blockstates/ma_f.json",
+          "src/main/java/top/pf43/mcaic/block/MaFBlock.java",
           "src/main/resources/assets/mcaic/models/block/ma_f.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_f.json",
           "src/main/resources/assets/mcaic/models/item/ma_f.json"
         ]
       }
@@ -206,8 +210,9 @@
       "metadata": {
         "files": [
           "src/main/java/top/pf43/mcaic/block/MaJmBlock.java",
-          "src/main/resources/assets/mcaic/blockstates/ma_jm.json",
           "src/main/resources/assets/mcaic/models/item/ma_jm.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_jm.json",
+          "src/main/resources/assets/mcaic/blockstates/ma_jm.json",
           "src/main/resources/assets/mcaic/models/block/ma_jm.json"
         ]
       }
@@ -221,10 +226,11 @@
       "registry_name": "ma_jue",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/block/ma_jue.json",
-          "src/main/java/top/pf43/mcaic/block/MaJueBlock.java",
           "src/main/resources/assets/mcaic/models/item/ma_jue.json",
-          "src/main/resources/assets/mcaic/blockstates/ma_jue.json"
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_jue.json",
+          "src/main/java/top/pf43/mcaic/block/MaJueBlock.java",
+          "src/main/resources/assets/mcaic/blockstates/ma_jue.json",
+          "src/main/resources/assets/mcaic/models/block/ma_jue.json"
         ]
       }
     },
@@ -237,9 +243,10 @@
       "registry_name": "mapgy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/blockstates/mapgy.json",
           "src/main/resources/assets/mcaic/models/block/mapgy.json",
+          "src/main/resources/assets/mcaic/blockstates/mapgy.json",
           "src/main/java/top/pf43/mcaic/block/MapgyBlock.java",
+          "src/main/resources/data/mcaic/loot_tables/blocks/mapgy.json",
           "src/main/resources/assets/mcaic/models/item/mapgy.json"
         ]
       }
@@ -253,10 +260,11 @@
       "registry_name": "ma_jy",
       "metadata": {
         "files": [
-          "src/main/java/top/pf43/mcaic/block/MaJyBlock.java",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_jy.json",
           "src/main/resources/assets/mcaic/blockstates/ma_jy.json",
-          "src/main/resources/assets/mcaic/models/item/ma_jy.json",
-          "src/main/resources/assets/mcaic/models/block/ma_jy.json"
+          "src/main/java/top/pf43/mcaic/block/MaJyBlock.java",
+          "src/main/resources/assets/mcaic/models/block/ma_jy.json",
+          "src/main/resources/assets/mcaic/models/item/ma_jy.json"
         ]
       }
     },
@@ -280,10 +288,11 @@
       "registry_name": "l_ma_roge",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/block/l_ma_roge.json",
+          "src/main/resources/assets/mcaic/models/item/l_ma_roge.json",
           "src/main/resources/assets/mcaic/blockstates/l_ma_roge.json",
+          "src/main/resources/assets/mcaic/models/block/l_ma_roge.json",
           "src/main/java/top/pf43/mcaic/block/LMaRogeBlock.java",
-          "src/main/resources/assets/mcaic/models/item/l_ma_roge.json"
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_roge.json"
         ]
       }
     },
@@ -296,10 +305,11 @@
       "registry_name": "l_ma_saga_test",
       "metadata": {
         "files": [
+          "src/main/resources/assets/mcaic/models/item/l_ma_saga_test.json",
+          "src/main/java/top/pf43/mcaic/block/LMaSagaTestBlock.java",
           "src/main/resources/assets/mcaic/models/block/l_ma_saga_test.json",
           "src/main/resources/assets/mcaic/blockstates/l_ma_saga_test.json",
-          "src/main/java/top/pf43/mcaic/block/LMaSagaTestBlock.java",
-          "src/main/resources/assets/mcaic/models/item/l_ma_saga_test.json"
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_saga_test.json"
         ]
       }
     },
@@ -313,9 +323,10 @@
       "metadata": {
         "files": [
           "src/main/java/top/pf43/mcaic/block/MaSagaTestBlock.java",
-          "src/main/resources/assets/mcaic/models/block/ma_saga_test.json",
           "src/main/resources/assets/mcaic/blockstates/ma_saga_test.json",
-          "src/main/resources/assets/mcaic/models/item/ma_saga_test.json"
+          "src/main/resources/assets/mcaic/models/block/ma_saga_test.json",
+          "src/main/resources/assets/mcaic/models/item/ma_saga_test.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_saga_test.json"
         ]
       }
     },
@@ -343,10 +354,11 @@
       "registry_name": "ma_saga_qb",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/item/ma_saga_qb.json",
-          "src/main/resources/assets/mcaic/blockstates/ma_saga_qb.json",
           "src/main/resources/assets/mcaic/models/block/ma_saga_qb.json",
-          "src/main/java/top/pf43/mcaic/block/MaSagaQBBlock.java"
+          "src/main/resources/assets/mcaic/models/item/ma_saga_qb.json",
+          "src/main/java/top/pf43/mcaic/block/MaSagaQBBlock.java",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_saga_qb.json",
+          "src/main/resources/assets/mcaic/blockstates/ma_saga_qb.json"
         ]
       }
     },
@@ -359,8 +371,9 @@
       "registry_name": "l_ma_saga_qb",
       "metadata": {
         "files": [
-          "src/main/java/top/pf43/mcaic/block/LMaSagaQBBlock.java",
           "src/main/resources/assets/mcaic/blockstates/l_ma_saga_qb.json",
+          "src/main/java/top/pf43/mcaic/block/LMaSagaQBBlock.java",
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_saga_qb.json",
           "src/main/resources/assets/mcaic/models/block/l_ma_saga_qb.json",
           "src/main/resources/assets/mcaic/models/item/l_ma_saga_qb.json"
         ]
@@ -375,10 +388,11 @@
       "registry_name": "ma_saga_bb",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/block/ma_saga_bb.json",
-          "src/main/resources/assets/mcaic/blockstates/ma_saga_bb.json",
           "src/main/resources/assets/mcaic/models/item/ma_saga_bb.json",
-          "src/main/java/top/pf43/mcaic/block/MaSagaBBBlock.java"
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_saga_bb.json",
+          "src/main/resources/assets/mcaic/models/block/ma_saga_bb.json",
+          "src/main/java/top/pf43/mcaic/block/MaSagaBBBlock.java",
+          "src/main/resources/assets/mcaic/blockstates/ma_saga_bb.json"
         ]
       }
     },
@@ -391,10 +405,11 @@
       "registry_name": "l_ma_saga_bb",
       "metadata": {
         "files": [
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_saga_bb.json",
           "src/main/resources/assets/mcaic/models/item/l_ma_saga_bb.json",
           "src/main/resources/assets/mcaic/blockstates/l_ma_saga_bb.json",
-          "src/main/resources/assets/mcaic/models/block/l_ma_saga_bb.json",
-          "src/main/java/top/pf43/mcaic/block/LMaSagaBBBlock.java"
+          "src/main/java/top/pf43/mcaic/block/LMaSagaBBBlock.java",
+          "src/main/resources/assets/mcaic/models/block/l_ma_saga_bb.json"
         ]
       }
     },
@@ -407,8 +422,9 @@
       "registry_name": "ma_saga_bg",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/item/ma_saga_bg.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_saga_bg.json",
           "src/main/resources/assets/mcaic/blockstates/ma_saga_bg.json",
+          "src/main/resources/assets/mcaic/models/item/ma_saga_bg.json",
           "src/main/java/top/pf43/mcaic/block/MaSagaBGBlock.java",
           "src/main/resources/assets/mcaic/models/block/ma_saga_bg.json"
         ]
@@ -423,9 +439,10 @@
       "registry_name": "l_ma_saga_bg",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/item/l_ma_saga_bg.json",
           "src/main/java/top/pf43/mcaic/block/LMaSagaBGBlock.java",
           "src/main/resources/assets/mcaic/blockstates/l_ma_saga_bg.json",
+          "src/main/resources/assets/mcaic/models/item/l_ma_saga_bg.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_saga_bg.json",
           "src/main/resources/assets/mcaic/models/block/l_ma_saga_bg.json"
         ]
       }
@@ -439,9 +456,10 @@
       "registry_name": "ma_saga_zz",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/item/ma_saga_zz.json",
-          "src/main/java/top/pf43/mcaic/block/MaSagaZZBlock.java",
           "src/main/resources/assets/mcaic/models/block/ma_saga_zz.json",
+          "src/main/java/top/pf43/mcaic/block/MaSagaZZBlock.java",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_saga_zz.json",
+          "src/main/resources/assets/mcaic/models/item/ma_saga_zz.json",
           "src/main/resources/assets/mcaic/blockstates/ma_saga_zz.json"
         ]
       }
@@ -455,10 +473,11 @@
       "registry_name": "l_ma_saga_zz",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/block/l_ma_saga_zz.json",
-          "src/main/java/top/pf43/mcaic/block/LMaSagaZZBlock.java",
           "src/main/resources/assets/mcaic/blockstates/l_ma_saga_zz.json",
-          "src/main/resources/assets/mcaic/models/item/l_ma_saga_zz.json"
+          "src/main/java/top/pf43/mcaic/block/LMaSagaZZBlock.java",
+          "src/main/resources/assets/mcaic/models/block/l_ma_saga_zz.json",
+          "src/main/resources/assets/mcaic/models/item/l_ma_saga_zz.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_saga_zz.json"
         ]
       }
     },
@@ -471,10 +490,11 @@
       "registry_name": "ma_saga_yy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/models/block/ma_saga_yy.json",
-          "src/main/resources/assets/mcaic/blockstates/ma_saga_yy.json",
           "src/main/resources/assets/mcaic/models/item/ma_saga_yy.json",
-          "src/main/java/top/pf43/mcaic/block/MaSagaYYBlock.java"
+          "src/main/java/top/pf43/mcaic/block/MaSagaYYBlock.java",
+          "src/main/resources/assets/mcaic/models/block/ma_saga_yy.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_saga_yy.json",
+          "src/main/resources/assets/mcaic/blockstates/ma_saga_yy.json"
         ]
       }
     },
@@ -487,10 +507,11 @@
       "registry_name": "l_ma_saga_yy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mcaic/blockstates/l_ma_saga_yy.json",
-          "src/main/resources/assets/mcaic/models/block/l_ma_saga_yy.json",
           "src/main/java/top/pf43/mcaic/block/LMaSagaYYBlock.java",
-          "src/main/resources/assets/mcaic/models/item/l_ma_saga_yy.json"
+          "src/main/resources/assets/mcaic/blockstates/l_ma_saga_yy.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_saga_yy.json",
+          "src/main/resources/assets/mcaic/models/item/l_ma_saga_yy.json",
+          "src/main/resources/assets/mcaic/models/block/l_ma_saga_yy.json"
         ]
       }
     },
@@ -504,8 +525,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/mcaic/models/item/ma_saga_ff.json",
-          "src/main/java/top/pf43/mcaic/block/MaSagaFFBlock.java",
           "src/main/resources/assets/mcaic/models/block/ma_saga_ff.json",
+          "src/main/java/top/pf43/mcaic/block/MaSagaFFBlock.java",
+          "src/main/resources/data/mcaic/loot_tables/blocks/ma_saga_ff.json",
           "src/main/resources/assets/mcaic/blockstates/ma_saga_ff.json"
         ]
       }
@@ -519,10 +541,11 @@
       "registry_name": "l_ma_saga_ff",
       "metadata": {
         "files": [
-          "src/main/java/top/pf43/mcaic/block/LMaSagaFFBlock.java",
           "src/main/resources/assets/mcaic/blockstates/l_ma_saga_ff.json",
-          "src/main/resources/assets/mcaic/models/block/l_ma_saga_ff.json",
-          "src/main/resources/assets/mcaic/models/item/l_ma_saga_ff.json"
+          "src/main/java/top/pf43/mcaic/block/LMaSagaFFBlock.java",
+          "src/main/resources/assets/mcaic/models/item/l_ma_saga_ff.json",
+          "src/main/resources/data/mcaic/loot_tables/blocks/l_ma_saga_ff.json",
+          "src/main/resources/assets/mcaic/models/block/l_ma_saga_ff.json"
         ]
       }
     },
@@ -720,6 +743,14 @@
           "src/main/resources/data/mcaic/recipes/c_mastaff.json"
         ]
       }
+    },
+    {
+      "name": "Bigstaff",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigstaff"
     }
   ],
   "variable_elements": [],
@@ -763,6 +794,7 @@
       "block.mcaic.l_ma_saga_yy": "Long Crystal Chandelier Yellow",
       "block.mcaic.ma_saga_bg": "Half-Grid Crystal Chandelier Green",
       "item.mcaic.re_noel_bsp": "ginkiha - 紡ぐ者の森(Battle)",
+      "item.mcaic.bigstaff": "Bigstaff",
       "block.mcaic.ma_saga_bb": "Half-Grid Crystal Chandelier Light Blue",
       "block.mcaic.ma_saga_zz": "Half-Grid Crystal Chandelier Crimson",
       "block.mcaic.ma_saga_ff": "Half-Grid Crystal Chandelier Pink",
@@ -804,6 +836,7 @@
       "block.mcaic.l_ma_saga_yy": "长水晶吊灯黄色",
       "block.mcaic.ma_saga_bg": "半格水晶吊灯绿色",
       "item.mcaic.re_noel_bsp": "编织者森林（战斗曲）唱片碎片",
+      "item.mcaic.bigstaff": "大铁棍9版本特色）",
       "block.mcaic.ma_saga_bb": "半格水晶吊灯淡蓝色",
       "block.mcaic.ma_saga_zz": "半格水晶吊灯品红色",
       "block.mcaic.ma_saga_ff": "半格水晶吊灯粉红色",
@@ -811,6 +844,7 @@
       "painting.mcaic.noel_pdd.author": "橋野みずは",
       "block.mcaic.ma_jue": "魔法植物-蕨类",
       "block.mcaic.l_ma_saga_test": "长水晶吊灯 Test",
+      "itemGroup.tabmcaic": "Mcaic",
       "block.mcaic.ma_xm": "魔法植物-小菌类",
       "entity.mcaic.test_1": "Test 1",
       "painting.mcaic.noeland_t.author": "橋野みずは",
@@ -836,10 +870,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "forge-1.19.2",
     "credits": "使用了MCreator，比基岩版快，Java大法好（bushi）",
     "modElementsPackage": "top.pf43.mcaic",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300336712
+  "mcreatorVersion": 202200348217
 }

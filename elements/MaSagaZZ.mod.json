@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "block",
   "definition": {
     "texture": "masagazz",
@@ -234,7 +234,12 @@
     "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningRadious": 0.0,
+    "particleAmount": 0,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

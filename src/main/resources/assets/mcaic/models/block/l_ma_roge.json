@@ -1,9 +1,9 @@
 {
   "parent": "mcaic:custom/lmaroge",
   "textures": {
-    "all": "mcaic:block/lmaroge",
-    "particle": "mcaic:block/lmaroge",
-    "0": "mcaic:block/lmaroge"
+    "all": "mcaic:blocks/lmaroge",
+    "particle": "mcaic:blocks/lmaroge",
+    "0": "mcaic:blocks/lmaroge"
   },
   "render_type": "solid"
 }

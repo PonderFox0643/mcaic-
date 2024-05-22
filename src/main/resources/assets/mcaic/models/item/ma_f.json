@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mcaic:block/magicf"
+    "layer0": "mcaic:blocks/magicf"
   }
 }

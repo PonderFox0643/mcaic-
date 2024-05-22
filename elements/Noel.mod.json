@@ -1,12 +1,10 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "logo",
+    "texture": "icon",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
     "name": "吉祥雾（物）",
     "rarity": "COMMON",
     "creativeTab": {

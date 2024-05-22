@@ -1,12 +1,10 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "re_noel_b_sp",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
     "name": "编织者森林（战斗曲）唱片碎片",
     "rarity": "COMMON",
     "creativeTab": {

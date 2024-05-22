@@ -31,7 +31,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
 public class Test1Entity extends Monster {
@@ -41,13 +40,12 @@ public class Test1Entity extends Monster {
 
 	public Test1Entity(EntityType<Test1Entity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.6f);
 		xpReward = 1;
 		setNoAi(false);
 	}
 
 	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -58,7 +56,7 @@ public class Test1Entity extends Monster {
 		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
+				return (double) (4.0 + entity.getBbWidth() * entity.getBbWidth());
 			}
 		});
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));

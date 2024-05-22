@@ -15,5 +15,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class McaicModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, McaicMod.MODID);
-	public static final RegistryObject<SoundEvent> MCAIC_NOEL_BATTLE = REGISTRY.register("mcaic_noel_battle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mcaic", "mcaic_noel_battle")));
+	public static final RegistryObject<SoundEvent> MCAIC_NOEL_BATTLE = REGISTRY.register("mcaic_noel_battle",
+			() -> new SoundEvent(new ResourceLocation("mcaic", "mcaic_noel_battle")));
 }

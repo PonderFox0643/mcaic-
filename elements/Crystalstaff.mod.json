@@ -1,8 +1,7 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
     "renderType": 1,
     "texture": "crystal_staff",
     "customModelName": "crystalstaff:default",
@@ -11,6 +10,7 @@
     "creativeTab": {
       "value": "CUSTOM:Mcaic"
     },
+    "toolType": "Sword",
     "harvestLevel": 3,
     "efficiency": 6.0,
     "attackSpeed": 3.0,

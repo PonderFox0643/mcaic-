@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -11,10 +11,12 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
     "customBoundingBox": true,
     "disableOffset": true,
     "boundingBoxes": [
@@ -77,11 +79,9 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "isBonemealable": false,
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "generationType": "Flower",
     "patchSize": 64,
     "generateAtAnyHeight": false
   }

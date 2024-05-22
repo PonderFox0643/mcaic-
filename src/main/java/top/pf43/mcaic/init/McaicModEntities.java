@@ -23,7 +23,8 @@ import net.minecraft.world.entity.Entity;
 public class McaicModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, McaicMod.MODID);
 	public static final RegistryObject<EntityType<Test1Entity>> TEST_1 = register("test_1",
-			EntityType.Builder.<Test1Entity>of(Test1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Test1Entity::new)
+			EntityType.Builder.<Test1Entity>of(Test1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(Test1Entity::new)
 
 					.sized(0.6f, 1.8f));
 

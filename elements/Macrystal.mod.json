@@ -1,12 +1,10 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "magic_crystal",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
     "name": "法杖水晶",
     "rarity": "COMMON",
     "creativeTab": {

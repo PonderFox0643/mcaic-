@@ -1,6 +1,8 @@
 
 package top.pf43.mcaic.item;
 
+import top.pf43.mcaic.init.McaicModTabs;
+
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
@@ -30,8 +32,8 @@ public class CrystalstaffItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.EMPTY;
 			}
-		}, 3, -1f, new Item.Properties());
+		}, 3, -1f, new Item.Properties().tab(McaicModTabs.TAB_MCAIC));
 	}
 }

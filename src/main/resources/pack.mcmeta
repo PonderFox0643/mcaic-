@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 15,
-    "description": "这是一个在我的世界中的Alice In Cradle模组，至少是的"
+    "description": "mcaic mod resources",
+    "pack_format": 9,
+    "forge:resource_pack_format": 9,
+    "forge:data_pack_format": 10
   }
 }

@@ -1,11 +1,9 @@
 {
-  "_fv": 47,
+  "_fv": 34,
   "_type": "painting",
   "definition": {
-    "texture": "noel-d.png",
+    "texture": "noel_pdd.png",
     "width": 32,
-    "height": 16,
-    "title": "Noel PDD",
-    "author": "橋野みずは"
+    "height": 16
   }
 }

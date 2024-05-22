@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mcaic:item/logo"
+    "layer0": "mcaic:items/icon"
   }
 }

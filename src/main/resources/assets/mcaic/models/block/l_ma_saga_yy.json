@@ -1,9 +1,9 @@
 {
   "parent": "mcaic:custom/lmasaga",
   "textures": {
-    "all": "mcaic:block/lmasagayy",
-    "particle": "mcaic:block/lmasagayy",
-    "0": "mcaic:block/lmasagayy"
+    "all": "mcaic:blocks/lmasagayy",
+    "particle": "mcaic:blocks/lmasagayy",
+    "0": "mcaic:blocks/lmasagayy"
   },
   "render_type": "solid"
 }

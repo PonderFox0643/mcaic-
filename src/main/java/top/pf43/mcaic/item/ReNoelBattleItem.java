@@ -1,6 +1,8 @@
 
 package top.pf43.mcaic.item;
 
+import top.pf43.mcaic.init.McaicModTabs;
+
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.item.RecordItem;
@@ -10,6 +12,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class ReNoelBattleItem extends RecordItem {
 	public ReNoelBattleItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mcaic:mcaic_noel_battle")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2885);
+		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mcaic:mcaic_noel_battle")),
+				new Item.Properties().tab(McaicModTabs.TAB_MCAIC).stacksTo(1).rarity(Rarity.RARE), 2885);
 	}
 }

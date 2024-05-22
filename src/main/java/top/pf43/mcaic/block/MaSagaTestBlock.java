@@ -6,8 +6,8 @@ import org.checkerframework.checker.units.qual.s;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootParams;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -21,7 +21,8 @@ import java.util.Collections;
 
 public class MaSagaTestBlock extends Block {
 	public MaSagaTestBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> 15).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> 15).noCollission().noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -35,19 +36,16 @@ public class MaSagaTestBlock extends Block {
 	}
 
 	@Override
-	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.empty();
-	}
-
-	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.or(box(7.3, 11.8, 7.3, 7.7, 16.2, 7.7), box(7.25, 14.25, 6.75, 7.75, 14.75, 7.25), box(7.25, 14.25, 7.75, 7.75, 14.75, 8.25), box(6.75, 14.25, 7.25, 7.25, 14.75, 7.75), box(7.75, 14.25, 7.25, 8.25, 14.75, 7.75),
-				box(7, 8, 7, 8, 10, 8), box(7, 8, 7, 8, 10, 8), box(7, 8, 7, 8, 10, 8), box(7, 8, 7, 8, 10, 8), box(7, 7.65, 7, 8, 9.65, 8), box(6.15, 9.45, 6.15, 8.85, 10.15, 8.85), box(7, 10, 7, 8, 12, 8), box(7, 10, 7, 8, 12, 8),
-				box(7, 10, 7, 8, 12, 8), box(7, 10, 7, 8, 12, 8), box(7, 10, 7, 8, 12, 8));
+
+		return Shapes.or(box(7.3, 11.8, 7.3, 7.7, 16.2, 7.7), box(7.25, 14.25, 6.75, 7.75, 14.75, 7.25), box(7.25, 14.25, 7.75, 7.75, 14.75, 8.25),
+				box(6.75, 14.25, 7.25, 7.25, 14.75, 7.75), box(7.75, 14.25, 7.25, 8.25, 14.75, 7.75), box(7, 8, 7, 8, 10, 8), box(7, 8, 7, 8, 10, 8),
+				box(7, 8, 7, 8, 10, 8), box(7, 8, 7, 8, 10, 8), box(7, 7.65, 7, 8, 9.65, 8), box(6.15, 9.45, 6.15, 8.85, 10.15, 8.85),
+				box(7, 10, 7, 8, 12, 8), box(7, 10, 7, 8, 12, 8), box(7, 10, 7, 8, 12, 8), box(7, 10, 7, 8, 12, 8), box(7, 10, 7, 8, 12, 8));
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

@@ -1,8 +1,8 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "mcaic:block/magicjm",
-    "particle": "mcaic:block/magicjm"
+    "cross": "mcaic:blocks/magicjm",
+    "particle": "mcaic:blocks/magicjm"
   },
   "render_type": "cutout"
 }
